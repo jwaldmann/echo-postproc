@@ -1,0 +1,22 @@
+name:                echo-postproc
+version:             0.0.0
+synopsis:            starexec postprocessor that just prints its command line to stderr
+-- description:         
+homepage:            https://github.com/jwaldmann/echo-postproc
+license:             GPL-3
+license-file:        LICENSE
+author:              Johannes Waldmann
+maintainer:          johannes.waldmann@htwk-leipzig.de
+-- copyright:           
+category:            Math
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+executable plain-postproc
+  main-is:             Main.hs
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:       base  
+  -- hs-source-dirs:      
+  default-language:    Haskell2010
